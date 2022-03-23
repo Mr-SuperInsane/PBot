@@ -1,1 +1,1 @@
-worker: python porn_line.py
+: python porn_line.py
