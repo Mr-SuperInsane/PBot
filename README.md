@@ -6,6 +6,8 @@ RevoTechが開発中のP-Botの追加はこちら
 URL：https://lin.ee/P6BaCsd  
 LINE ID：1656877366   
 
+P-Bot ver0.1公開中
+
 # P-Botプロジェクトに参加する
 
 プロジェクトの参加を希望する人はこちらのDiscordサーバに参加してください。  
