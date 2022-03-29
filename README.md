@@ -13,6 +13,10 @@ P-Bot ver0.1公開中
 プロジェクトの参加を希望する人はこちらのDiscordサーバに参加してください。  
 https://discord.gg/8dR8Zjeu
 
+# オープンソースの説明
+
+
+
 ## LINE Notify バージョン
 「notify.py」は自身で発行したLINE Notifyのトークンをコピペして自分専用Botとしてお使いください。ソースコードはHeroku用に作られているので「Herokuの説明」を参考にデプロイしてください。
 
