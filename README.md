@@ -14,9 +14,9 @@ P-Bot ver0.1公開中
 https://discord.gg/8dR8Zjeu
 
 # オープンソースの説明
-'''python
-pip install line-bot-sdk
-'''
+::
+
+    $ pip install line-bot-sdk
 
 ## LINE Notify バージョン
 「notify.py」は自身で発行したLINE Notifyのトークンをコピペして自分専用Botとしてお使いください。ソースコードはHeroku用に作られているので「Herokuの説明」を参考にデプロイしてください。
