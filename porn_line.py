@@ -41,14 +41,16 @@ def porn():
     output_word = driver.find_element_by_xpath("/html/body/div[3]/main/div[3]/div[3]/section[2]/div[3]/div[1]/textarea").get_attribute("value")
 
     # LINE nortify処理
-    TOKEN = "9XWjMfjnhVXB7snWRlNboVETvQwXYi468Uy0lyPU2YH"
+    TOKEN = "発行したトークンを貼ってね"
     api_url = "https://notify-api.line.me/api/notify"
-
+    
+    #各項目の間に改行を2つ入れるといい感じ
     send_contents = f"\r\n【--今日のおすすめ--】\r\n\r\n 「{output_word}」\r\n\r\n({random_title})\r\n\r\n 「{random_url}」"
     TOKEN_dic = {'Authorization': 'Bearer' + ' ' + TOKEN}
     send_dic = {"message":send_contents}
     requests.post(api_url, headers=TOKEN_dic, data=send_dic)
 
+#UTC時刻13:00に実行される(日本時間22:00)
 schedule.every().day.at("13:00").do(porn)
 while True:
     schedule.run_pending()
