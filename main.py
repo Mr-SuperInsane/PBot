@@ -45,10 +45,10 @@ def porn():
     send_contents = f"【--今日のおすすめ動画--】\r\n\r\n 「{output_word}」\r\n\r\n({random_title})\r\n\r\n {random_url}"
     # LINE_bot処理
 
-    CHANNEL_ACCESS_TOKEN = '/mlvmeSNagihDX2ZknOWm+hGRwjWqnWY19gcxH5241PeVZvj1s5zubGBq+t0fyX79FHaOEuGPu1dJQQYIUt3kPFOtnL9COw/oYV2vQF/Ges14l2VdxkLhVN1ETq1tdUosNweEWz2iO2f0p9r0uLnTQdB04t89/1O/w1cDnyilFU='
+    CHANNEL_ACCESS_TOKEN = 'チャンネルアクセストークン'
     line_bot_api = LineBotApi(CHANNEL_ACCESS_TOKEN)
 
-    USER_ID = 'U0b620699cb158a4eefd6200998d2d68f'
+    USER_ID = 'ユーザーID'
     messages = TextSendMessage(text=send_contents)
     line_bot_api.push_message(USER_ID, messages=messages)
 
