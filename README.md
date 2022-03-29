@@ -14,6 +14,8 @@ P-Bot ver0.1公開中
 https://discord.gg/8dR8Zjeu
 
 # オープンソースの説明
+notify.pyまたはbot.pyの実行にはline-bot-sdkをインストールする必要があります。  
+
     $ pip install line-bot-sdk
 
 ## LINE Notify バージョン
