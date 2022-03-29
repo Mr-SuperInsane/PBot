@@ -14,7 +14,7 @@ P-Bot ver0.1公開中
 https://discord.gg/8dR8Zjeu
 
 # オープンソースの説明
-'''
+'''python
 pip install line-bot-sdk
 '''
 
