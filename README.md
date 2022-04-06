@@ -3,7 +3,7 @@
 P-Botプロジェクトへようこそ。P-Botはエロ動画を配信するLINE Botです。  
 
 RevoTechが開発中のP-Botの追加はこちら  
-URL：https://lin.ee/P6BaCsd  
+URL：https://lin.ee/b5UivLhh  
 LINE ID：1656877366   
 
 P-Bot ver1.0公開中  
