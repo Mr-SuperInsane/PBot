@@ -48,9 +48,8 @@ def porn():
     CHANNEL_ACCESS_TOKEN = 'チャンネルアクセストークン'
     line_bot_api = LineBotApi(CHANNEL_ACCESS_TOKEN)
 
-    USER_ID = 'ユーザーID'
     messages = TextSendMessage(text=send_contents)
-    line_bot_api.push_message(USER_ID, messages=messages)
+    line_bot_api.broadcast(messages=messages)
 
 schedule.every().day.at('21:00').do(porn)
 schedule.every().day.at('13:00').do(porn)
