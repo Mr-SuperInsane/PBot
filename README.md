@@ -10,11 +10,6 @@ P-Bot ver1.0公開中
 
 P-Botに関する最新情報はIssuesを御覧ください。
 
-# P-Botプロジェクトに参加する
-
-プロジェクトの参加を希望する人はこちらのDiscordサーバに参加してください。  
-https://discord.gg/8dR8Zjeu
-
 # オープンソースの説明
 notify.pyまたはbot.pyの実行にはline-bot-sdkをインストールする必要があります。  
 
