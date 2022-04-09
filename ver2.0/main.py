@@ -14,8 +14,8 @@ from message import follow_message, select_video_sites, select_pornhub, select_x
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('hH+6VJCMqKVDd3at4IEoMfAraBQT3ss4SrA7PyhA3VlqO/iAEVYSsuzRExaiQRqPMeiX7kF1kAydsY3hRG7l/70ZXgqFpFj/mZ9Ojb1GvqXGcy+RJGu5wF9ScxJc7MUqU2hs7Ll75olXPzwCYzRQbgdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('a40ec37046fa7461f919c622271fc6c6')
+line_bot_api = LineBotApi('チャンネルアクセストークン')
+handler = WebhookHandler('シークレットキー')
 
 
 @app.route("/callback", methods=['POST'])
