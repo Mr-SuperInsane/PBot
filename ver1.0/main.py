@@ -35,7 +35,7 @@ def pornhub():
     output_word = translator.translate_text(random_title,target_lang='JA')
     message = f'【今日のおすすめ動画】\r\n\r\n『{output_word}』\r\n\r\n\n({random_title})\r\n\r\n{random_url}'
 
-    line_bot_api = LineBotApi('hH+6VJCMqKVDd3at4IEoMfAraBQT3ss4SrA7PyhA3VlqO/iAEVYSsuzRExaiQRqPMeiX7kF1kAydsY3hRG7l/70ZXgqFpFj/mZ9Ojb1GvqXGcy+RJGu5wF9ScxJc7MUqU2hs7Ll75olXPzwCYzRQbgdB04t89/1O/w1cDnyilFU=')
+    line_bot_api = LineBotApi('チャンネルアクセストークン')
     line_bot_api.broadcast(TextSendMessage(text=message))
 
 schedule.every().day.at("13:00").do(pornhub)
