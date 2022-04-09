@@ -34,7 +34,7 @@ def pornhub():
     output_word = random_title
     isReliable, textBytesFound, detail = cld2.detect(random_title)
     if detail[0][1] != 'ja':
-        translator = deepl.Translator('602efc52-a29d-d7a6-7613-1277095e4fb3:fx')
+        translator = deepl.Translator('AuthKey')
         output_word = translator.translate_text(random_title,target_lang='JA')
         check = 'false'
     return output_word, random_title, random_url, check
@@ -62,7 +62,7 @@ def xvideos():
     output_word = random_title
     isReliable, textBytesFound, detail = cld2.detect(random_title)
     if detail[0][1] != 'ja':
-        translator = deepl.Translator('602efc52-a29d-d7a6-7613-1277095e4fb3:fx')
+        translator = deepl.Translator('AuthKey')
         output_word = translator.translate_text(random_title,target_lang='JA')
         check = 'false'
     return output_word, random_title, random_url, check
@@ -94,10 +94,7 @@ def xhamster():
     output_word = random_title
     isReliable, textBytesFound, detail = cld2.detect(random_title)
     if detail[0][1] != 'ja':
-        translator = deepl.Translator('602efc52-a29d-d7a6-7613-1277095e4fb3:fx')
+        translator = deepl.Translator('AuthKey')
         output_word = translator.translate_text(random_title,target_lang='JA')
         check = 'false'
     return output_word, random_title, random_url, check
-
-    #/html/body/div[1]/main/div/article/div[2]/div/div[{n}]/div/a
-    #/html/body/div[1]/main/div/article/div[2]/div/div[3]/div/a
