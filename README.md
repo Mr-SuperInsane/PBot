@@ -3,11 +3,15 @@ notify.pyまたはbot.pyの実行にはline-bot-sdkをインストールする�
 
     $ pip install line-bot-sdk
 
-## LINE Notify バージョン
+## LINE Notify
 「notify.py」は自身で発行したLINE Notifyのトークンをコピペして自分専用Botとしてお使いください。ソースコードはHeroku用に作られているので「Herokuの説明」を参考にデプロイしてください。
 
 ## LINE Messaging API (Bot) バージョン
 「bot.py」はLINE Messaging APIのチャンネルアクセストークンおよびユーザーIDをコピペしてお使いください。  ソースコードは自由に変更していただいて構いません。またソースコードを利用して作成したLINE Botの配布も自由にしていただいて構いません。ソースコードはHeroku用に作られているので「Herokuの説明」を参考にデプロイしてください。
+
+## バージョン2.0
+
+ver2.0より動画サイトを選択可能になりました。動画サイトは「PornHub」「XVIDEOS」「SpankBang」に対応しています。
 
 ## Herokuの説明
 
