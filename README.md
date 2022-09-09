@@ -1,4 +1,4 @@
-# オープンソースの説明
+# 概要
 notify.pyまたはbot.pyの実行にはline-bot-sdkをインストールする必要があります。  
 
     $ pip install line-bot-sdk
